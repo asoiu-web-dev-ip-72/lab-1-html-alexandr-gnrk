@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta http-equiv = "Content-Type" content = "text/html; char-set = UTF-8" />
+		<title>Обратная связь</title>
+	</head>
+	<body>
+		<header>
+			<a href="main.html">Главная</a>
+			<a href="servers.html">Сервера</a>
+			<a href="gallery.html">Галерея</a>
+			<a href="map.html">Карта</a>
+			<a href="download.html">Скачать</a>
+			<a href="#">Обратная связь</a>
+			<hr color="black" size="2px">
+		</header>
+
+		<div>
+			<h1>Форма обратной связи</h1>
+			<hr>
+			<form name="feedback">
+				<label for="topic"><b>Укажите тему обращения:</b></label>
+				<br>
+				<select name="topic" id="topic">
+					<option selected="selected">Общие вопросы</option>
+					<option>Ошибка в работе сайта</option>
+					<option>Уязвимость на сайте :)</option>
+					<option>Гениальная идея</option>
+					<option>Предложение сотрудничества</option>
+				</select>
+				<br>
+				<br>
+				<label for="email"><b>Ваш адрес электронной почты:</b></label>
+				<br>
+				<input type="text" name="email" id="email" size="25" placeholder="john@example.com">
+				<span>На этот адрес будет отправлен ответ службы поддержки</span>
+				<br>
+				<br>
+				<label for="text"><b>Текст вашего сообщения:</b></label>
+				<br>
+				<textarea name="text" id="text" rows="10" cols="45"></textarea>
+				<br>
+				<br>
+
+				<input type="checkbox" name="processing_data" id="processing_data" value="agree"/>
+				<span>Нажимая кнопку «Отправить», вы даете согласие на обработку своих персональных данных</span>
+				<br>
+				<br>
+				<input type="submit" value="Отправить">
+				<input type="reset" value="Очистить">
+			</form>
+
+		</div>
+
+
+		<footer>
+			
+			
+		</footer>
+	</body>
+</html>
